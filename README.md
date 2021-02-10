@@ -54,7 +54,7 @@ npm run serve
 ## Usage:
 
 After setting and running the project, web app is available at:
-- http://localhost:8080/#/ -> Home page -> shows the list of all therapists along with theird ids, names and photo_urls
+- http://localhost:8080/#/ -> Home page -> shows the list of all therapists along with theird ids, names and profile links
 - http://localhost:8080/#/therapist/{id} -> Therapist Profile page -> shows the profile of the therapist specified by {id}
 
 ### Customize configuration
