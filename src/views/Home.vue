@@ -1,18 +1,14 @@
+<style scoped></style>
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <h2>
+      You can check therapist profile by visiting the following url:
+      "http://localhost:8080/#/therapist/{id}"
+    </h2>
+    <h1>
+      All available therapists are as follow:
+      <br />
+      ...
+    </h1>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  name: "Home",
-  components: {
-    HelloWorld
-  }
-};
-</script>
