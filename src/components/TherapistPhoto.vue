@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <h1>
-      <img :src="photo_url" alt="therapist_info" width="400" height="500" />
-    </h1>
+  <div id="photo">
+    <img :src="photo_url" alt="therapist_info" />
   </div>
 </template>
 
@@ -16,3 +14,15 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+#photo {
+  margin: auto;
+  /*width: 100%;*/
+  /*height: 100%;*/
+}
+img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgray;
+}
+</style>

@@ -1,7 +1,11 @@
 <template>
-  <div class="home">
-    <TherapistPhoto :photo_url="photo_url_var" />
-    <TherapistInfo :name="name_var" :methods="methods_var" />
+  <div class="therapist">
+    <div class="photo">
+      <TherapistPhoto :photo_url="photo_url_var" />
+    </div>
+    <div class="info">
+      <TherapistInfo :name="name_var" :methods="methods_var" />
+    </div>
   </div>
 </template>
 
@@ -13,7 +17,7 @@ import TherapistInfo from "@/components/TherapistInfo";
 import { get_therapist } from "@/services/therapist_services";
 
 export default {
-  name: "Home",
+  name: "Therapist",
   components: {
     TherapistPhoto,
     TherapistInfo
@@ -27,3 +31,29 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.therapist {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  height: 65%;
+  border: solid gray 1px;
+}
+.photo {
+  float: left;
+  position: relative;
+  width: 32%;
+  height: 80%;
+  top: 5%;
+  left: 3%;
+}
+.info {
+  position: relative;
+  float: right;
+  width: 61%;
+  height: 80%;
+  top: 5%;
+  right: 3%;
+}
+</style>
