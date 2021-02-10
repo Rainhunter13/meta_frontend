@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      {{photo_url}}
+      <img :src="photo_url" alt="therapist_info" width="400" height="500" />
     </h1>
   </div>
 </template>
