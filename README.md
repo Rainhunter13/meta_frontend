@@ -1,6 +1,6 @@
 # meta_frontend
-meta_frontend is a Vue.js frontend application responisble for showing therapists profiles with information received from backend API <br/>
-meta_back: https://github.com/Rainhunter13/meta_back
+meta_frontend is a Vue.js frontend application responisble for showing therapists profiles with information received from backend API<br/>
+meta_backend: https://github.com/Rainhunter13/meta_backend
 
 ## Project structure:
 <pre>
@@ -32,7 +32,7 @@ meta_back: https://github.com/Rainhunter13/meta_back
 
 ## How to run:
 
-0. Setup and run the backend application - refer to https://github.com/Rainhunter13/meta_back
+0. Setup and run the backend application - refer to https://github.com/Rainhunter13/meta_backend
 
 1. Install Node.js, Vue.js
 
