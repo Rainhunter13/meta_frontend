@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>
-      Therapist Photo Here
+      {{photo_url}}
     </h1>
   </div>
 </template>

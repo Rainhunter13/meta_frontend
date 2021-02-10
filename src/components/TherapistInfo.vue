@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>id: {{ name }}</h1>
+    <h1>{{ name }}</h1>
     <b>{{ methods }}</b>
   </div>
 </template>
